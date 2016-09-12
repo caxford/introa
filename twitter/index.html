@@ -1,0 +1,32 @@
+
+<script>
+//Steps to solve the problem:
+//1. tell them that there's a 140 character limit
+//2 keep track of how many characters the user has used
+//3.keep track of how many characters the user has remaining
+//4. tell them if they have gone over the character limit
+
+
+var character = prompt("You have a 140 character limit")
+var aoc = character.length
+
+
+if( aoc === 140 )
+{
+
+alert ("you are out of characters")
+
+}
+
+if(aoc > 140 )
+{
+	alert("Your out of characters, delete some to continue")
+
+}
+
+if( aoc < 140)
+
+{
+ alert(140 - aoc)
+}
+</script>
