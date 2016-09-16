@@ -9,9 +9,10 @@
 
 var character = prompt("You have a 140 character limit")
 var aoc = character.length
-
+var aocleft = (140 - aoc)
 
 if( aoc === 140 )
+
 {
 
 alert ("you are out of characters")
@@ -24,9 +25,11 @@ if(aoc > 140 )
 
 }
 
-if( aoc < 140)
+else
 
 {
- alert(140 - aoc)
+
+alert ("You have " + aocleft + " characters remaining. Press ok to continue typing") + prompt(" Finish your tweet below")
 }
+
 </script>
