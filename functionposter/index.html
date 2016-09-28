@@ -1,0 +1,39 @@
+
+<script>
+
+//calculate ther amunt of change in dollar, quarters, nickels, dimes, and pennies owe to a customer who purchases an item. ask them how much money the item costs and how much they're spending
+
+
+alert("You bought a toy car that costs $4.25");
+
+var payment = prompt("Please enter the amount of money you wish to pay for your items in decimal form");
+
+var price = (4.25)
+var change = (payment - price)
+
+
+var dollarsamount = Math.floor(change/1.00)
+change = change - (dollarsamount * 1.00)
+
+
+var quartersamount = Math.floor(change/0.25)
+change = change - (quartersamount * 0.25)
+
+
+var dimesamount = Math.floor(change/0.10)
+change = change - (dimesamount * 0.10)
+
+
+var nickelsamount = Math.floor(change/0.10)
+change = change - (nickelsamount * 0.10)
+
+
+var penniesamount = Math.floor(change/0.01)
+change = change - (penniesamount * 0.01)
+
+
+
+
+	
+
+alert("Your change is " + dollarsamount + " dollars" + ", " + quartersamount  + " quarters" + ", " + dimesamount + " dimes" + ", " + nickelsamount + " nickels" + ", " + penniesamount + " pennies"); 
