@@ -1,0 +1,61 @@
+
+<html>
+<head>
+    <title>Triangle</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="1280" height="800"></canvas>
+ 
+    <script>
+
+var canvasElement = document.querySelector("#myCanvas");
+var context = canvasElement.getContext("2d");
+ 
+
+
+
+ // the triangle
+context.beginPath();
+context.moveTo(450, 100);
+context.lineTo(300, 500);
+context.lineTo(600, 500);
+context.fillStyle="#fffa05";
+context.fill();
+context.closePath();
+
+ // Quadratric curves 
+context.beginPath();
+context.moveTo(480,200);
+context.quadraticCurveTo(480,200,478,210);
+context.lineTo(480,220);
+context.quadraticCurveTo(480,220,487,235);
+context.quadraticCurveTo(492,260,485,280);
+context.quadraticCurveTo(475,400,525,450);
+context.lineTo(525,450);
+context.stroke();
+
+context.beginPath();
+context.moveTo(443,180)
+context.quadraticCurveTo(460,200,470,255);
+context.stroke();
+
+context.beginPath();
+context.moveTo(460,240);
+context.lineTo(461,255);
+context.quadraticCurveTo(430,400,480,475);
+context.strokeStyle="#ffffff";
+context.stroke();
+
+
+
+ 
+
+
+
+
+
+
+    </script>
+ 
+</body>
+</html>
