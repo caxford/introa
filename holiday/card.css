@@ -1,0 +1,89 @@
+body{
+	background: #FF474F;
+    
+}	
+#photowrapper {
+
+	width: 50%;
+ margin-left: 25%;
+
+}
+
+
+#thePhoto {
+ box-sizing: border-box;
+
+	width: 100%;
+	 border: 20px ridge #C0C0C0;
+}
+
+#forwardBtn {
+
+	position:relative;
+	float: right;
+}
+button {
+	background: #1e5627
+
+
+}
+.centerMe{
+	   font-size:50px;
+	font-family: 'Lobster', cursive;
+ 
+		text-align: center;
+		color:#1e5627
+
+}
+p.centerMe {
+	
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+
+}
+
+h2{
+position: relative;
+bottom: 621px;
+left: 0px;
+font-size: 32px;
+font-family: 'Lobster', cursive;
+color:#1e5627;
+
+
+}
+
+.pageWrapper{
+
+	width: 70%
+	margin-left: 15%
+	padding: 20px 20px 20px 20px;
+	background-color: #FF474F;
+}
+
+#chart_div {
+
+}
+
+
+#clockdiv {
+font-size:32px;
+font-family: 'Lobster', cursive;
+
+    position: relative;
+    bottom: 900px;
+    left: 60px;
+  	width: 165px;
+  	height: 165px;
+    border: 5px solid #1e5627;
+}
+
+
+
+
+title{
+	color: #ffffff
+}
+
