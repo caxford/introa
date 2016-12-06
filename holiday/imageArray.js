@@ -4,7 +4,9 @@ var imageArray = [
 "http://mccrindle.com.au/blog/2014/11/Christmas.jpg",
 "http://cdn.mos.cms.futurecdn.net/b07fe573201528c3cbb1fd4c8e816866.png",
 "https://www.souvenirs.nyc/wp/wp-content/uploads/2015/10/christmas.jpg",
+"https://erinklematravels.files.wordpress.com/2013/12/nycornaments.jpg",
 ];
+
 
 var currentIndex= 0;
 
